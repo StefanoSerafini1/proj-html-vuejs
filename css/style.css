@@ -9,6 +9,11 @@ body {
 header {
   width: 100%;
 }
+h1{
+ font-size: 50px;
+ top: 50px;
+}
+
 /* logo revoult */
 
 .header-left img {
@@ -78,6 +83,7 @@ header {
 .img{
   background-image:url(../img/ragazzaconlecuffie.jpg);
   background-size: 100% 100%;
+  box-shadow: inset  800px 0px  100px black;
 }
 
 .colore{
@@ -92,11 +98,17 @@ header {
  top: 110px;
  left: -100px;
 }
+/* fas fa water  */
 .fa-water{
   font-size: 50px;
   margin: 15px;
   color:lightgreen;
 }
+.cubo{
+  font-size: 25px;
+  color: #ffff;
+}
+/* ******** */
 .bigplay{
   color: white;
   position: absolute;
@@ -126,14 +138,14 @@ header {
   padding: 15px 30px;
   border-radius: 25px;
   border: none;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 .testo button.buy{
   background-color: black;
   color: white;
   padding: 15px 30px;
   border-radius: 25px;
-  margin: 15px;
+  margin: 25px;
   border: 3px solid #78787a;
 }
 .rettangolo{
@@ -141,15 +153,93 @@ header {
   background-color: green;
   border-bottom: 3px solid #33475B;
   border-top: 3px solid #33475B;
-  background-color: #42FFC7;
+  background-color: #42FFC7;5
 }
-
-
-h1{
- font-size: 50px;
- top: 50px;
+/* tre immagini crossfit new gym team training */
+.arcobaleno{
+  height:900px;
+  background: linear-gradient(142deg, rgba(28,13,205,1) 0%, rgba(232,48,48,1) 79%, rgba(252,176,69,1) 100%);
 }
-
-span{
-  font-size: 12px;
+.cubo3{
+  width: 100%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.cubo3 h2{
+  color: white;
+}
+.cubo3 h3{
+  color: yellow;
+}
+.crossfit{
+  background-image:url(../img/crossfitworkout.jpg);
+  width: 22%;
+  display: inline-block;
+  margin-left: 50px;
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px;
+  height: 400px;
+  background-size: 100% 100%;
+  box-shadow: inset  0px -97px 128px black;
+}
+.newGym{
+  background-image:url(../img/accessori.jpg);
+  width: 22%;
+  display: inline-block;
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px;
+  height: 400px;
+  background-size: 100% 100%;
+  box-shadow: inset  0px -97px 128px black;
+}
+.teamTraining{
+  background-image:url(../img/pallamedica.jpg);
+  width: 22%;
+  display: inline-block;
+  margin-right: 50px;
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px;
+  height: 400px;
+  background-size: 100% 100%;
+  box-shadow: inset  0px -97px 128px black;
+}
+.testoCubo3{
+  margin-top: 80%;
+}
+.citazione{
+  margin-top: 15px;
+}
+.citazione :first-child{
+  margin-top: 50px;
+}
+.arcobaleno h1{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+.user ul{
+  align-self: center;
+  display: flex;
+  list-style: none;
+  justify-content:center;
+  margin-bottom: 20px;
+}
+.user img{
+  max-width: 40px;
+  border-radius: 50%;
+  align-self: center;
+  cursor: pointer;
+}
+.user p{
+  align-self: center;
+  cursor: pointer;
+  padding-left: 10px;
+  color:#bcbcbc;
+}
+p.nome{
+  color:white;
+  font-size: 18px;
 }

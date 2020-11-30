@@ -158,7 +158,7 @@ h1{
 /* tre immagini crossfit new gym team training */
 .arcobaleno{
   height:900px;
-  background: linear-gradient(142deg, rgba(28,13,205,1) 0%, rgba(232,48,48,1) 79%, rgba(252,176,69,1) 100%);
+  background: linear-gradient(142deg, rgba(28,13,205,1) 0%, rgba(28,9,143,1) 0%, rgba(126,28,114,1) 45%, rgba(232,48,48,1) 75%, rgba(227,15,30,1) 84%, rgba(182,20,32,1) 100%, rgba(252,176,69,1) 100%);
 }
 .cubo3{
   width: 100%;
@@ -242,4 +242,63 @@ h1{
 p.nome{
   color:white;
   font-size: 18px;
+}
+/* sezione video + testo e link youtube  */
+.sezione{
+  width: 100%;
+}
+
+.sezione-s{
+  float: left;
+  width: 45%;
+  text-align: left;
+  position: relative;
+}
+.sezione-s i{
+  font-size: 15px;
+  color: #4154fe;
+  background-color: white;
+  border: none;
+  border-radius: 100%;
+  padding: 30px;
+  position: absolute;
+  top: 322px;
+  left: 291px;
+}
+.playAddome{
+  position: absolute;
+  top: 800px;
+  left: -400px;
+}
+.sezione-d {
+  float: right;
+  width: 40%;
+  text-align: left;
+  margin: 100px 50px;
+}
+.sezione-d > * {
+    margin: 20px 0;
+}
+.sezione-d h2{
+  font-size: 15px;
+  color: #4321aa;
+}
+.sezione-d h1{
+  font-size: 40px;
+}
+.sezione p{
+  color:#78787a;
+}
+.sezione-s img {
+  width: 100%;
+  border-radius: 0px 0px 10px 0px;
+}
+
+.sezione-d button.red{
+  background-color: red;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 25px;
 }

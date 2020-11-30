@@ -5,20 +5,19 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: black;
 }
 header {
-  display: flex;
-  justify-content: center;
+  width: 100%;
 }
 /* logo revoult */
- header img {
+
+.header-left img {
    height: 40px;
-   width: 180px;
+   width: 200px;
  }
 .wrapper{
-  width: 80%;
-  height: 70px;
+  width: 100%;
+  height: 80px;
   display: flex;
   align-items: center;
   background-color: black;
@@ -31,16 +30,18 @@ header {
 .wrapper a:hover {
   color:white;
 }
-/* header sinistra gen+lista */
+/* header sinistra*/
 .header-left {
-  width: 15%;
+  margin-left: 130px;
+  width: 25%;
   display: flex;
   align-items: center;
 }
 
-/*header destra gen+lista*/
+/*header destra gen*/
 .header-right {
   width: 85%;
+  margin-right: 130px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -48,11 +49,12 @@ header {
 .header-right > ul li{
   display: inline-block;
   color: grey;
-  padding: 20px;
+  padding: 15px;
 }
 .header-right ul li:hover {
   color:white;
 }
+/* rettangolino giallo navbar */
 .new{
   background-color: yellow;
   padding:6px;
@@ -61,11 +63,93 @@ header {
   margin-left: 5px;
 }
 /* bottone*/
-button {
+.header-right button {
   background-color: #4154fe;
   color: white;
   padding: 10px 20px;
   border-radius: 25px;
   margin-left: 15px;
   border: none;
+}
+/* sezione ragazza con cuffia */
+.contenitore{
+  height: 500px;
+}
+.img{
+  background-image:url(../img/ragazzaconlecuffie.jpg);
+  background-size: 100% 100%;
+}
+
+.colore{
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+
+.testo{
+ color: white;
+ position: absolute;
+ top: 110px;
+ left: -100px;
+}
+.fa-water{
+  font-size: 50px;
+  margin: 15px;
+  color:lightgreen;
+}
+.bigplay{
+  color: white;
+  position: absolute;
+  top: 100px;
+  right: -400px;
+}
+.bigplay i{
+  font-size: 20px;
+  color: #4154fe;
+  background-color: white;
+  border: none;
+  border-radius: 100%;
+  padding: 30px;
+}
+.testo h2{
+  color:#bc0428;
+  margin-bottom: 15px;
+}
+.testo p{
+  font-size: 20px;
+  color: #bcbcbc;
+  margin-top: 15px;
+}
+.testo button.visit{
+  background-color: #4154fe;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 15px;
+}
+.testo button.buy{
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 25px;
+  margin: 15px;
+  border: 3px solid #78787a;
+}
+.rettangolo{
+  height: 80px;
+  background-color: green;
+  border-bottom: 3px solid #33475B;
+  border-top: 3px solid #33475B;
+  background-color: #42FFC7;
+}
+
+
+h1{
+ font-size: 50px;
+ top: 50px;
+}
+
+span{
+  font-size: 12px;
 }

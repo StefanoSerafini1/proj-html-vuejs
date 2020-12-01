@@ -78,7 +78,7 @@ h1{
 }
 /* sezione ragazza con cuffia */
 .contenitore{
-  height: 500px;
+  height: 600px;
 }
 .img{
   background-image:url(../img/ragazzaconlecuffie.jpg);
@@ -149,13 +149,7 @@ h1{
   margin: 25px;
   border: 3px solid #78787a;
 }
-.rettangolo{
-  height: 80px;
-  background-color: green;
-  border-bottom: 3px solid #33475B;
-  border-top: 3px solid #33475B;
-  background-color: #42FFC7;5
-}
+
 /* tre immagini crossfit new gym team training */
 .arcobaleno{
   height:900px;
@@ -412,4 +406,55 @@ button.suscribe{
   border: none;
   color:#78787a;
   margin-bottom: 25px;
+}
+/* sezione rettangoli fluo */
+.background{
+  background: black;
+  width: 100%;
+  height: 600px;
+}
+
+.rettangoli{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rettangolo{
+  width: 28%;
+  height: 400px;
+  text-align: center;
+  border-radius: 5px;
+  border: 3px solid #4321aa;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 100px;
+}
+.rettangolo i{
+  color: white;
+  font-size: 40px;
+  padding-top: 50px;
+}
+.rettangolo h1{
+  color: white;
+  font-size:18px;
+  padding: 20px 0px 0px 0px;
+  margin: 0px;
+}
+.rettangolo a {
+  text-decoration: none;
+  color: #ffff;
+}
+h2.yellow{
+  font-size: 15px;
+  color:yellow;
+  padding-top: 10px;
+}
+.descrizione{
+  font-size: 13px;
+  color: #78787a;
+  padding: 30px 5px 0px 5px;
+  line-height: 21px;
 }

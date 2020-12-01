@@ -9,10 +9,6 @@ body {
 header {
   width: 100%;
 }
-h1{
- font-size: 35px;
- margin: 20px 0px;
-}
 
 /* logo revoult */
 
@@ -554,4 +550,41 @@ p.testosponsor{
   padding: 10px;
   margin-bottom: 10px;
   line-height: 25px;
+}
+/* sezione banner banca */
+.panca{
+  background-image: url(../img/panca.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.overlayBanner{
+  position: absolute;
+  display: block;
+  align-items: center;
+  height: 65%;
+  width: 100%;
+}
+.overlayBanner > *{
+  margin-bottom: 30px;
+}
+.overlayBanner h2{
+  color: yellow;
+}
+.overlayBanner a{
+  color:white;
+  font-size: 15px;
+  text-decoration: none;
+}
+i.fas.fa-play.workout{
+  font-size: 20px;
+  color: #4154fe;
+  background-color: white;
+  border: none;
+  border-radius: 100%;
+  padding: 35px;
+  cursor: pointer;
 }

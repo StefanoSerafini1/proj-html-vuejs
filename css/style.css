@@ -542,12 +542,16 @@ p.foto{
 .sponsor a{
   color:black;
   text-decoration: none;
-}
-
-
-p.testosponsor{
   font-size: 15px;
-  color: #4321aa;
+}
+i.mezzo{
+  color: #4257ef;
+  margin-top: 20px;
+}
+p.testosponsor{
+  font-size: 13px;
+  color: #78787a;
   padding: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  line-height: 25px;
 }

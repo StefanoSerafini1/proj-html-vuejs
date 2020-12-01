@@ -302,3 +302,33 @@ p.nome{
   border: none;
   margin-top: 25px;
 }
+button.youtubeChannel{
+  color:white;
+  background: red;
+  align-self: center;
+  border: none;
+  padding: 5px 11px;
+  border-radius: 2px;
+}
+.fusionChannel{
+  align-self: center;
+  display: flex;
+  list-style: none;
+}
+section.buttonSubscribe{
+  width: auto;
+  height: auto;
+  border: 0.5px solid #bcbcbc;
+  margin-left: 8px;
+  border-radius: 2px;
+}
+small.iscritti{
+  background: #ffff;
+  color: #78787a;
+  padding: 5px 7px;
+  font-size: 12px;
+}
+small.nomeChannel{
+  color: #78787a;
+  margin-left: 8px;
+}

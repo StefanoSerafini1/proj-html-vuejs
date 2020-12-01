@@ -335,11 +335,12 @@ small.nomeChannel{
 /* sezione tre video */
 
 .treVideo{
-  width: 80%;
+  width: 90%;
   margin: auto;
-  height: 350px;
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
 }
-
 .video{
   width: 32%;
   display: inline-block;
@@ -354,19 +355,19 @@ small.nomeChannel{
   position: relative;
 }
 .imgvideo img{
-  width: 65%;
-  height: 50%;
+  width: 100%;
   border-radius: 0px 0px 10px 0px;
 }
 
 .titolo{
-  font-size:15px;
-  margin: 10px;
+  font-size:18px;
+  margin-top: 10px;
 }
 
 .descrizione{
-  font-size: 12px;
+  font-size: 15px;
   color: #4321aa;
+  padding: 10px;
   margin-bottom: 30px;
 }
 .overlay{
@@ -452,9 +453,30 @@ h2.yellow{
   color:yellow;
   padding-top: 10px;
 }
-.descrizione{
+.descrizioneRettangoli{
   font-size: 13px;
   color: #78787a;
   padding: 30px 5px 0px 5px;
   line-height: 21px;
+}
+/* sezione tre foto con testo  */
+.imgfoto{
+  position: relative;
+}
+.imgfoto img{
+  width: 92%;
+  margin-bottom: 20px;
+}
+h2.foto{
+  font-size: 18px;
+  color:black;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+p.foto{
+  font-size: 15px;
+  color: #78787a;
+  text-align: left;
+  margin-left: 20px;
 }

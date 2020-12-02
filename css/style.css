@@ -73,6 +73,9 @@ header {
   border: none;
 }
 /* sezione ragazza con cuffia */
+.testo > *{
+  margin-bottom: 20px;
+}
 .contenitore{
   height: 600px;
 }
@@ -97,7 +100,6 @@ header {
 /* fas fa water  */
 .fa-water{
   font-size: 50px;
-  margin-bottom: 20px;
   color:lightgreen;
 }
 .cubo{
@@ -329,12 +331,28 @@ small.nomeChannel{
   color: #78787a;
   margin-left: 8px;
 }
+/* titolo + link  */
+.titololink{
+  width: 89%;
+  display: flex;
+  justify-content: space-between;
+  text-align:center;
+  margin: auto;
+}
+.titololink > *{
+  color: black;
+  text-decoration: none;
+}
+.immagini{
+  width: 87%;
+  margin-top: 40px;
+}
 /* sezione tre video */
 
 .treVideo{
   width: 90%;
   margin: auto;
-  height: 450px;
+  height: 430px;
   display: flex;
   justify-content: space-around;
 }
@@ -437,11 +455,11 @@ button.suscribe{
 }
 .rettangolo h1{
   color: white;
-  font-size:18px;
+  font-siz  e:18px;
   padding: 20px 0px 0px 0px;
   margin: 0px;
 }
-.rettangolo a {
+a.link {
   text-decoration: none;
   color: #ffff;
 }
@@ -453,7 +471,7 @@ h2.yellow{
 .descrizioneRettangoli{
   font-size: 13px;
   color: #78787a;
-  padding: 30px 5px 0px 5px;
+  padding: 30px 5px 15px 20px;
   line-height: 21px;
 }
 /* sezione tre foto con testo  */
@@ -593,4 +611,68 @@ i.fas.fa-play.workout{
   border-radius: 100%;
   padding: 35px;
   cursor: pointer;
+}
+/* SEZIONE FOOTER */
+
+footer{
+  width: 100%;
+  height:auto;
+  background-color: black;
+}
+.contact{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  text-align:center;
+  height: auto;
+}
+.rettangoloContact{
+  width: 32%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 60px;
+}
+.rettangoloContact img{
+  width: 210px;
+}
+.rettangoloContact h1{
+  color:white;
+  font-size: 22px;
+  margin-top: 5px;
+}
+.rettangoloContact h2{
+  color:white;
+  font-size: 18px;
+}
+.descrizioneContact{
+  font-size: 18px;
+  color: #bcbcbc;
+  padding: 30px 5px 15px 30px;
+  line-height: 21px;
+}
+.iconeSocial{
+  display:inline-block;
+  margin-top: 20px;
+}
+.iconeSocial i{
+  color:#bc0428;
+  padding-right: 10px;
+  font-size: 18px;
+}
+/* zona Copyright */
+.copyright{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 100px;
+}
+.copyright p{
+  padding: 0px;
+  font-size: 15px;
+}
+.copyrightBianchi{
+  color:white;
+  padding: 0px 1px 0px 1px;
 }

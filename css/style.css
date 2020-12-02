@@ -71,6 +71,7 @@ header {
   border-radius: 25px;
   margin-left: 15px;
   border: none;
+  cursor: pointer;
 }
 /* contenitoreOver */
 .contenitoreOver{
@@ -78,9 +79,6 @@ header {
   position: relative;
 }
 /* sezione ragazza con cuffia */
-.testo > *{
-  margin-bottom: 20px;
-}
 .contenitore{
   height: 600px;
 }
@@ -89,18 +87,42 @@ header {
   background-size: 100% 100%;
   box-shadow: inset  800px 0px  100px black;
 }
-
 .colore{
   width: 70%;
   margin: auto;
   position: relative;
 }
-
 .testo{
  color: white;
  position: absolute;
  top: 110px;
  left: -100px;
+}
+.testo > *{
+  padding-bottom: 25px;
+}
+.testo h2{
+  font-size: 20px;
+  color:#bc0428;
+}
+.testo p{
+  font-size: 17px;
+  color: #bcbcbc;
+}
+.testo button.visit{
+  background-color: #4154fe;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+}
+.testo button.buy{
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 25px;
+  margin: 25px;
+  border: 3px solid #78787a;
 }
 /* fas fa water  */
 .fa-water{
@@ -112,6 +134,7 @@ header {
   color: #ffff;
 }
 /* ******** */
+/* elemento play video  */
 .bigplay{
   color: white;
   position: absolute;
@@ -126,33 +149,7 @@ header {
   border-radius: 100%;
   padding: 30px;
 }
-.testo h2{
-  font-size: 20px;
-  color:#bc0428;
-  margin: 20px 0px;
-}
-.testo p{
-  font-size: 17px;
-  color: #bcbcbc;
-  margin-top: 15px;
-}
-.testo button.visit{
-  background-color: #4154fe;
-  color: white;
-  padding: 15px 30px;
-  border-radius: 25px;
-  border: none;
-  margin-top: 25px;
-}
-.testo button.buy{
-  background-color: black;
-  color: white;
-  padding: 15px 30px;
-  border-radius: 25px;
-  margin: 25px;
-  border: 3px solid #78787a;
-}
-
+/* ********** */
 /* tre immagini crossfit new gym team training */
 .arcobaleno{
   height:900px;
@@ -628,9 +625,10 @@ footer{
 .rettangoloContact{
   width: 32%;
   text-align: center;
+  align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: 60px;
+  margin: 60px 0px 60px 0px;
 }
 .rettangoloContact img{
   width: 210px;
@@ -652,12 +650,25 @@ footer{
 }
 .iconeSocial{
   display:inline-block;
-  margin-top: 20px;
+  margin: 20px 0px 0px 35px;
 }
 .iconeSocial i{
   color:#bc0428;
   padding-right: 10px;
   font-size: 18px;
+}
+.recent :first-child{
+  margin-top: 20px;
+}
+li.recentPost{
+  margin-bottom: 15px;
+}
+ .rettangoloContact a{
+  color: white;
+  font-size: 18px;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
 }
 /* zona Copyright */
 .copyright{

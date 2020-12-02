@@ -28,12 +28,8 @@
         <!-- header parte destra 6 voci + bottone + 2 icone   -->
           <div class="header-right">
             <ul>
-              <li class="padding-left"><a href="#">Home</a></li>
-              <li class="relative padding-left"><a href="#">Service</a></li>
-              <li class="relative padding-left"><a href="#">About</a></li>
-              <li class="relative padding-left"><a href="#">Videos</a></li>
-              <li class="relative padding-left"><a href="#">Blog</a></li>
-              <li class="relative padding-left"><a href="#">Store</a><small class="new">new</i></small></li>
+              <li v-for="(link, index) in links"><a href="#">{{ link }}</a></li>
+              <li><a href="#">Store</a><small class="new">new</i></small></li>
               <!-- bottone scarica app -->
               <button type="button" name="button">Schedule a workout</button>
               <li class="carrello"><i class="fas fa-shopping-cart"></i></li>
@@ -287,12 +283,10 @@
           </div>
           <div class="rettangoloContact">
             <h1>RECENT POST</h1>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+            <ul class="recent">
+              <li class="recentPost" v-for="(post, index) in posts">
+                <a href="#" > > {{ post }} </a>
+              </li>
             </ul>
           </div>
           <div class="rettangoloContact">

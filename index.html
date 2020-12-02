@@ -159,8 +159,8 @@
                 <h2>Join our mailing list today</h2>
                 <h1>Insider offers & flash sales in your <br>inbox every week. </h1>
                 <i class="fas fa-water"></i> <br>
-                <input type="text" placeholder="Insert your email...*">
-                <button class="suscribe">Buy Avada today   <i class="fas fa-arrow-right"></i></i></button>
+                <input v-model="newMail" @keyup.enter="aggMail" type="text" placeholder="Insert your email...*">
+                <button @click="aggMail" class="suscribe">Buy Avada today   <i class="fas fa-arrow-right"></i></i></button>
                 <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus dolor sit amet,consectetur <br> adispiscing elit sed porttitor lectus.</p>
               </div>
             </div>

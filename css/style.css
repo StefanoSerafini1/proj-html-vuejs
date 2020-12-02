@@ -9,7 +9,9 @@ body {
 header {
   width: 100%;
 }
-
+input{
+  outline: none;
+}
 /* logo revoult */
 
 .header-left img {

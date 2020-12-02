@@ -15,6 +15,20 @@ var app = new Vue({
             'About',
             'Videos',
             'Blog'
-        ]
+        ],
+        mailList:[],
+        newMail:''
+      },
+
+      methods :{
+        //funzione per aggiunta nuova attivita
+        aggMail() {
+         if (this.newMail.trim() != ''){
+             this.mailList.push( this.newMail );
+             console.log(this.mailList);
+             this.newMail= '';
+          }
+        },
       }
+
 });

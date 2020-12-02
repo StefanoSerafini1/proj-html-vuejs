@@ -72,6 +72,11 @@ header {
   margin-left: 15px;
   border: none;
 }
+/* contenitoreOver */
+.contenitoreOver{
+  width: auto;
+  position: relative;
+}
 /* sezione ragazza con cuffia */
 .testo > *{
   margin-bottom: 20px;
@@ -166,8 +171,7 @@ header {
 .cubo3 h3{
   color: yellow;
 }
-.crossfit{
-  background-image:url(../img/crossfitworkout.jpg);
+.immaginiMeta{
   width: 22%;
   display: inline-block;
   margin-left: 50px;
@@ -177,35 +181,30 @@ header {
   background-size: 100% 100%;
   box-shadow: inset 0px -71px 475px black;
 }
+.crossfit{
+  background-image:url(../img/crossfitworkout.jpg);
+  margin-left: 50px;
+  position: absolute;
+  top: 525px;
+  left: 10%;
+}
 .newGym{
   background-image:url(../img/accessori.jpg);
-  width: 22%;
-  display: inline-block;
-  border-radius: 0px 10px 10px 0px;
-  padding: 10px;
-  height: 400px;
-  background-size: 100% 100%;
-  box-shadow: inset  0px -71px 475px black;
+  position: absolute;
+  top: 525px;
 }
 .teamTraining{
   background-image:url(../img/pallamedica.jpg);
-  width: 22%;
-  display: inline-block;
   margin-right: 50px;
-  border-radius: 0px 10px 10px 0px;
-  padding: 10px;
-  height: 400px;
-  background-size: 100% 100%;
-  box-shadow: inset  0px -71px 475px black;
+  position: absolute;
+  top: 525px;
+  right: 10%;
 }
 .testoCubo3{
   margin-top: 80%;
 }
 .citazione{
-  margin-top: 15px;
-}
-.citazione :first-child{
-  margin-top: 50px;
+  margin-top: 420px;
 }
 .arcobaleno h1{
   color: white;
@@ -277,7 +276,9 @@ p.nome{
   color:#78787a;
 }
 .sezione-s{
-  position: relative;
+  position: absolute;
+  top: 1435px;
+  left:0%;
 }
 .overlayGrande{
   position: absolute;

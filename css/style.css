@@ -6,11 +6,18 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
 header {
   width: 100%;
 }
-input{
+input,
+button{
   outline: none;
+}
+button,
+i,
+a{
+  cursor: pointer;
 }
 /* logo revoult */
 
@@ -56,6 +63,10 @@ input{
 }
 .header-right ul li:hover {
   color:white;
+}
+.header-right button:hover{
+  color:white;
+  background-color: #bc0428;
 }
 /* rettangolino giallo navbar */
 .new{
@@ -116,7 +127,12 @@ input{
   color: white;
   padding: 15px 30px;
   border-radius: 25px;
-  border: none;
+  border: 3px solid #4154fe;
+
+}
+.testo button.visit:hover{
+  background:#bc0428;
+  border: 3px solid #bc0428;
 }
 .testo button.buy{
   background-color: black;
@@ -125,6 +141,11 @@ input{
   border-radius: 25px;
   margin: 25px;
   border: 3px solid #78787a;
+}
+.testo button.buy:hover{
+  background: #ffff;
+  color: black;
+  border: 3px solid #ffff;
 }
 /* fas fa water  */
 .fa-water{
@@ -306,6 +327,9 @@ button.youtubeChannel{
   padding: 5px 11px;
   border-radius: 2px;
 }
+button.red:hover{
+  background: #4257fe;
+}
 .fusionChannel{
   align-self: center;
   display: flex;
@@ -333,12 +357,16 @@ small.nomeChannel{
   width: 89%;
   display: flex;
   justify-content: space-between;
-  text-align:center;
   margin: auto;
+  transition: transform .3s;
 }
 .titololink > *{
   color: black;
   text-decoration: none;
+  align-self: baseline;
+}
+.titololink a:hover{
+  transform: scale(1.2);
 }
 .immagini{
   width: 87%;
@@ -412,6 +440,11 @@ button.suscribe{
   margin-left: 15px;
   border: none;
 }
+button.suscribe:hover{
+  background-color: black;
+  color: white;
+  border: 3px solid #78787a;
+}
 .testo input{
   padding: 16px;
   width: 65%;
@@ -426,7 +459,6 @@ button.suscribe{
   width: 100%;
   height: 600px;
 }
-
 .rettangoli{
   width: 70%;
   margin: auto;
@@ -434,7 +466,6 @@ button.suscribe{
   justify-content: space-around;
   align-items: center;
 }
-
 .rettangolo{
   width: 28%;
   height: 400px;
@@ -444,6 +475,7 @@ button.suscribe{
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 100px;
+
 }
 .rettangolo i{
   color: white;
@@ -452,7 +484,7 @@ button.suscribe{
 }
 .rettangolo h1{
   color: white;
-  font-siz  e:18px;
+  font-size:18px;
   padding: 20px 0px 0px 0px;
   margin: 0px;
 }
@@ -460,6 +492,7 @@ a.link {
   text-decoration: none;
   color: #ffff;
 }
+
 h2.yellow{
   font-size: 15px;
   color:yellow;
@@ -664,8 +697,12 @@ footer{
 }
 li.recentPost{
   margin-bottom: 15px;
+  transition: transform .3s;
 }
- .rettangoloContact a{
+li.recentPost:hover{
+  transform: scale(1.1);
+}
+.rettangoloContact a{
   color: white;
   font-size: 18px;
   list-style: none;

@@ -181,6 +181,7 @@ a{
 .cubo3{
   display: flex;
   justify-content: space-around;
+  transition: transform .3s;
 }
 .cubo3 h2{
   color: white;
@@ -197,6 +198,10 @@ a{
   height: 400px;
   background-size: 100% 100%;
   box-shadow: inset 0px -45px 57px #000;
+  cursor: pointer
+}
+.immaginiMeta:hover{
+  transform: scale(1.1);
 }
 .crossfit{
   background-image:url(../img/crossfitworkout.jpg);
@@ -465,6 +470,7 @@ button.suscribe:hover{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  transition: transform .3s;
 }
 .rettangolo{
   width: 28%;
@@ -475,7 +481,10 @@ button.suscribe:hover{
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 100px;
-
+  cursor: pointer;
+}
+.rettangolo:hover{
+  transform: scale(1.1);
 }
 .rettangolo i{
   color: white;
@@ -507,10 +516,25 @@ h2.yellow{
 /* sezione tre foto con testo  */
 .imgfoto{
   position: relative;
-}
-.imgfoto img{
-  width: 92%;
+  transition: box-shadow .3s;
   margin-bottom: 20px;
+  height: 256px;
+  width: 378px;
+  background-size: 100% 100%;
+}
+.bevande{
+  background-image: url(../img/bevande.jpg);
+}
+.muscolo{
+  background-image: url(../img/muscolo.jpg);
+}
+.pesi{
+  background-image: url(../img/pesi.jpg);
+}
+.imgfoto:hover{
+  transition: .3s;
+  box-shadow: inset 0px -125px 77px rgba(99,55,255,0.34);
+  cursor: pointer;
 }
 h2.foto{
   font-size: 18px;

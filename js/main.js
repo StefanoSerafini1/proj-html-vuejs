@@ -9,6 +9,7 @@ var app = new Vue({
             'Tips to find training partners',
             '20 best healthy recipies'
         ],
+
         links: [
             'Home',
             'Service',
@@ -21,7 +22,7 @@ var app = new Vue({
       },
 
       methods :{
-        //funzione per aggiunta nuova attivita
+        //funzione per aggiunta nuova mail alla mailList
         aggMail() {
          if (this.newMail.trim() != ''){
              this.mailList.push( this.newMail );

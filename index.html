@@ -29,7 +29,7 @@
           <div class="header-right">
             <ul>
               <li v-for="(link, index) in links"><a href="#">{{ link }}</a></li>
-              <li><a href="#">Store</a><small class="new">new</i></small></li>
+              <li><a href="#">Store</a><small class="new">new<</small></li>
               <!-- bottone scarica app -->
               <button type="button" name="button">Schedule a workout</button>
               <li class="carrello"><i class="fas fa-shopping-cart"></i></li>
@@ -37,7 +37,9 @@
             </ul>
           </div>
         </section>
+        <!-- contenitore per avere le foto in absolute over due div -->
         <div class="contenitoreOver">
+          <!-- contenitore 1° banner ragazza con cuffie -->
           <div class="contenitore img">
             <div class="colore">
               <div class="testo">
@@ -48,15 +50,26 @@
                   <button class="visit"><i class="fab fa-youtube"></i>  Visit my YouTube channel</button>
                   <button class="buy">Buy Avada today   <i class="fas fa-arrow-right"></i></i></button>
                   <br>
+                  <!-- contenitore tasto play primo banner -->
                   <div class="bigplay">
                     <i class="fas fa-play"></i>
                   </div>
-                  <!-- da aggiungere due quadratini in alto a destra e provare modifiche effetto  -->
+              </div>
+              <!-- quadratini in alto a destra nel banner -->
+              <div class="quadratino uno">
+                <i class="fas fa-folder-plus"></i>
+                <p>Demos</p>
+              </div>
+              <div class="quadratino due">
+                <i class="fas fa-dollar-sign"></i>
+                <p>On sale</p>
               </div>
             </div>
           </div>
+          <!-- contenitore arcobaleno -->
           <section class="arcobaleno">
             <div class="cubo3">
+              <!-- tre immagini in over sui due contenitori -->
               <div class="immaginiMeta crossfit">
                 <div class="testoCubo3">
                   <i class="fas fa-water cubo"></i>
@@ -79,12 +92,14 @@
                 </div>
               </div>
             </div>
+            <!-- citazione zona arcobaleno -->
             <div class="citazione">
               <h1>"How you respond to the challenge in the second half <h1>
               <h1>will determine what you become after the game</h1>
               <h1>wheter you are a winner or a loser."</h1>
               <h1><i class="fas fa-water"></i></h1>
             </div>
+            <!-- parte user zona arcobaleno con foto -->
             <div class="user">
               <ul>
                 <li><img src="img/brad.jpg" alt="user brad"></li>
@@ -93,7 +108,9 @@
               </ul>
             </div>
           </section>
+          <!-- zona youtube video + canele theme fusion -->
           <div class="sezioneYoutube">
+            <!-- canele them fusion -->
             <div class="sezione-d">
               <h2>Tune up your workouts</h2>
               <h1>The best health & fitness <br> advice online</h1>
@@ -107,7 +124,9 @@
               <button class="red"><i class="fab fa-youtube"></i>  Visit my YouTube channel</button>
                     <!-- da aggiungere due quadratini in alto a destra e provare modifiche effetto  -->
             </div>
+            <!-- video esercizi lato sinistro -->
             <div class="sezione-s">
+              <!-- play over video -->
               <div class="overlayGrande">
                 <i class="fas fa-play"></i>
               </div>
@@ -117,13 +136,17 @@
         </div>
       </header>
       <main>
+        <!-- sezione titolo + link in space between -->
         <div class="titololink">
           <h2>Feutured playlists</h2>
           <a href="#">View all videos > </a>
         </div>
+        <!-- sezione dei tre video con testo e play -->
         <div class="treVideo">
+          <!-- 1° video -->
           <div class="video">
             <div class="imgvideo">
+              <!-- play over i tre video -->
               <div class="overlay">
                 <i class="fas fa-play"></i>
               </div>
@@ -132,6 +155,7 @@
             <h2 class="titolo">Thights & glute workout</h2>
             <p class="descrizione">Increase your mobility</p>
           </div>
+          <!-- 2° video -->
           <div class="video">
             <div class="imgvideo">
               <div class="overlay">
@@ -142,6 +166,7 @@
                 <h2 class="titolo">Lift,firm & perk up</h2>
                 <p class="descrizione">Fell young again</p>
           </div>
+          <!-- 3° video -->
           <div class="video">
             <div class="imgvideo">
               <div class="overlay">
@@ -153,18 +178,21 @@
                 <p class="descrizione">Shed those extra pounds</p>
           </div>
         </div>
+        <!-- banner tre ragazze con mailList -->
           <div class="contenitore img treragazze">
             <div class="colore">
               <div class="testo">
                 <h2>Join our mailing list today</h2>
                 <h1>Insider offers & flash sales in your <br>inbox every week. </h1>
                 <i class="fas fa-water"></i> <br>
+                <!-- input con funzione salvataggio mail in una mail list con vue sia al click del butto che con keyenter -->
                 <input v-model="newMail" @keyup.enter="aggMail" type="text" placeholder="Insert your email...*">
                 <button @click="aggMail" class="suscribe">Buy Avada today   <i class="fas fa-arrow-right"></i></i></button>
                 <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus dolor sit amet,consectetur <br> adispiscing elit sed porttitor lectus.</p>
               </div>
             </div>
           </div>
+          <!-- zona rettangoli fluo con hover -->
         <div class="background">
           <div class="rettangoli">
             <div class="rettangolo">
@@ -190,23 +218,28 @@
             </div>
           </div>
         </div>
+        <!-- altra zona titolo link con space between -->
         <div class="titololink immagini">
           <h2>Latest articles</h2>
           <a href="#">Read all articles > </a>
         </div>
+        <!-- sezione tre immagini simile ai tre video precedenti -->
         <div class="treVideo">
+          <!-- 1° -->
           <div class="video">
             <div class="imgfoto pesi">
             </div>
             <h2 class="foto">The best protein shake</h2>
             <p class="foto">By admin | November 26th, 2019 | Gym</p>
           </div>
+          <!-- 2° -->
           <div class="video">
             <div class="imgfoto muscolo">
             </div>
             <h2 class="foto">Ultimate cardio workout</h2>
             <p class="foto">By admin | November 26th, 2019 | Gym </p>
           </div>
+          <!-- 3° -->
           <div class="video">
             <div class="imgfoto bevande">
             </div>
@@ -214,6 +247,7 @@
             <p class="foto">By admin | November 26th, 2019 | Gym</p>
           </div>
         </div>
+        <!-- Banner con testo e bottone centrato centrato -->
           <div class="failed">
             <div class="overlayBanner">
               <h1>"I've failed over and over again in my <br> life. And that is why i succeed."</h1>
@@ -222,6 +256,7 @@
               <button class="suscribe" type="button" name="button">Buy avada today > </button>
             </div>
           </div>
+          <!-- sponsor con immagine e testo -->
           <div class="sponsors">
             <div class="sponsor">
               <div class="imgsponsor">
@@ -256,6 +291,7 @@
               <a href="#">Visit Power Gym ></a>
             </div>
         </div>
+        <!-- banner banca con drop-shadow su img -->
         <div class="panca">
           <div class="overlayBanner">
             <i class="fas fa-play workout"></i>
@@ -265,7 +301,9 @@
           </div>
         </div>
       </main>
+      <!-- inizio footer -->
       <footer>
+        <!-- sezione contatti -->
         <section class="contact">
           <div class="rettangoloContact">
             <img src="img/logo.png" alt="logo avada fitness">
@@ -278,6 +316,7 @@
               <i class="fab fa-linkedin-in"></i>
             </div>
           </div>
+          <!-- post recenti con link in vue -->
           <div class="rettangoloContact">
             <h1>RECENT POST</h1>
             <ul class="recent">
@@ -286,6 +325,7 @@
               </li>
             </ul>
           </div>
+          <!-- contatti sito -->
           <div class="rettangoloContact">
             <h1>CONTACT INFORMATIONS</h1>
             <p class="descrizioneContact">4746 Tipple Road Michigan 48499</p>
@@ -293,7 +333,9 @@
             <h2>Email: info@your-company.com</h2>
           </div>
         </section>
+        <!-- linea separazione -->
         <hr color="#78787a" size="2px" >
+        <!-- zona copyright -->
         <section class="copyright">
           <p class="descrizioneContact">Copyright 2012-2020 | Avada theme by</p>
           <p class="copyrightBianchi">&ensp; ThemeFusion &ensp; </p>

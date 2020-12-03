@@ -20,8 +20,7 @@ i,
 a{
   cursor: pointer;
 }
-/* logo revoult */
-
+/* logo avada fitness */
 .header-left img {
    height: 40px;
    width: 200px;
@@ -40,6 +39,14 @@ a{
 /* hover con variazione colore */
 .wrapper a:hover {
   color:white;
+}
+/* rettangolino giallo navbar */
+.new{
+  background-color: yellow;
+  padding:6px;
+  text-align: center;
+  border-radius: 2px;
+  margin-left: 5px;
 }
 /* header sinistra*/
 .header-left {
@@ -65,16 +72,6 @@ a{
 .header-right ul li:hover {
   color:white;
 }
-
-/* rettangolino giallo navbar */
-.new{
-  background-color: yellow;
-  padding:6px;
-  text-align: center;
-  border-radius: 2px;
-  margin-left: 5px;
-}
-
 /* contenitoreOver */
 .contenitoreOver{
   width: auto;
@@ -138,6 +135,34 @@ a{
   padding: 30px;
 }
 /* ********** */
+/* quadratini in alto a destra */
+.quadratino{
+  background: #ffff;
+  font-size: 15px;
+  padding: 12px;
+  border-radius: 10px;
+  color:#5c5c5f;
+  font-weight: bold;
+}
+.quadratino i{
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+.uno{
+  position: absolute;
+  top: 30px;
+  right: -18%;
+}
+.due{
+  position: absolute;
+  top: 124px;
+  right: -18%;
+}
+.due i{
+  color: #27dd1b;
+}
 /* tre immagini crossfit new gym team training */
 .arcobaleno{
   height:900px;
@@ -315,6 +340,7 @@ small.nomeChannel{
   color: black;
   text-decoration: none;
   align-self: baseline;
+  font-weight: bold;
 }
 .titololink a:hover{
   transform: scale(1.2);
@@ -332,7 +358,7 @@ small.nomeChannel{
   justify-content: space-around;
 }
 .video{
-  width: 32%;
+  width: 26%;
   display: inline-block;
   margin: auto;
   text-align:center;
@@ -471,7 +497,7 @@ h2.yellow{
 h2.foto{
   font-size: 18px;
   color:black;
-  text-align:+ left;
+  text-align: left;
   margin-left: 20px;
   margin-bottom: 10px;
 }
@@ -562,7 +588,7 @@ p.testosponsor{
   url(../img/panca.jpg);
   background-size: 100% 100%;
   width: 100%;
-  height: 500px;
+  height: 600px;
   display: flex;
   align-items: center;
   text-align: center;
